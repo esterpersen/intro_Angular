@@ -1,0 +1,30 @@
+.fraseHistoria {
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  border: #020252 solid 2px;
+}
+
+.fraseHistoria,
+button {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+button:hover{
+  background-color: #d7f7f7;
+  color: #020252;
+  opacity: 80%;
+}
+
+.currentSenteceStyle {
+  background-color: #f08080;
+  opacity: 89%;
+  color: #020252;
+}
+
+.inactiveSentenceStyle {
+  opacity: 65%;
+  background-color: whitesmoke;
+}

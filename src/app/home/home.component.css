@@ -1,0 +1,30 @@
+html,
+body,
+.primeraCarrega {
+  text-align: center;
+  font-weight: lighter;
+  color: whitesmoke;
+  font-size: 35px;
+  justify-content: space-evenly;
+}
+
+.container-fluid {
+  background-image: url("../../assets/img/back2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.primeraCarrega,
+app-escena {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: auto;
+}
+
+button {
+  font-size: 30px;
+  font-weight: bold;
+  width: 50%;
+}

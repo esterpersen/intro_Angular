@@ -1,0 +1,28 @@
+<div class="container-fluid" id="fullContainer">
+  <div class="primeraCarrega d-flex" *ngIf="primeraCarrega">
+    <div>
+      <p>
+        Aquesta és una breu història sobre les conseqüències de les nostres
+        decisions.
+      </p>
+    </div>
+    <div>
+      <button
+        type="button"
+        class="btn btn-outline-light"
+        (click)="iniciarHistoria()"
+      >
+        Començar
+      </button>
+    </div>
+  </div>
+
+  <app-escena
+    #escena
+    *ngIf="!primeraCarrega"
+    [currentSentence]="currentSentence"
+    [frasesPerMostrar]="frasesHistoria"
+    (updatedCurrentSentence)="canviDeFons($event)"
+  >
+  </app-escena>
+</div>
